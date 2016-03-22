@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int bilangan;
+    
+    cout<<"masukan bilangan bulat yang akan diperiksa:";
+    cin>>bilangan;
+    
+    if (bilangan % 2 == 0) {
+        cout<<"adalah bilangan genap";
+    } else {
+        cout<<"adalah bilangan ganjil";
+    }
+    return 0;
+}
